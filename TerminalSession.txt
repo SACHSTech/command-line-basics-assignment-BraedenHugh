@@ -1,1 +1,34 @@
-
+OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
+ pwd
+/home/runner/command-line-basics-assignment-BraedenHugh-7
+ 
+ mkdir LinuxExercise
+ ls
+LinuxExercise  README.md  TerminalSession.txt
+ cd LinuxExercise/
+ touch myfile.txt
+ cat myfile.txt
+This is my new file
+ cp myfile.txt myfile_copy.txt
+ ls
+myfile_copy.txt  myfile.txt
+ mv myfile_copy.txt myfile2.txt
+ mv myfile2.txt ~
+ ls ~
+command-line-basics-assignment-BraedenHugh-7  myfile2.txt
+jdt.ls-java-project               _test_runner.py
+ pwd
+/home/runner/command-line-basics-assignment-BraedenHugh-7/LinuxExercise
+ rm -r myfile.txt 
+ ls
+ cd ..
+ rmdir LinuxExercise/
+ ls
+README.md  TerminalSession.txt
+ ls~
+bash: ls~: command not found
+ ls ~
+command-line-basics-assignment-BraedenHugh-7  myfile2.txt
+jdt.ls-java-project               _test_runner.py
+ ^C
+ 
